@@ -1,0 +1,169 @@
+{
+  "current_time": "2026-01-31T17:24:53.171000+05:30",
+  "medications": [
+    {
+      "name": "Dolo",
+      "dosage": "50mg",
+      "timings": [
+        "14:11",
+        "18:00",
+        "20:30"
+      ],
+      "before_after_food": "after",
+      "pill_image": null,
+      "created_at": "2026-01-31T17:20:08.183827",
+      "updated_at": "2026-01-31T17:20:08.183827",
+      "image_file": "Dolo_dolo-650-mg-paracetamol-tablet.jpeg"
+    },
+    {
+      "name": "Antacid",
+      "dosage": "50mg",
+      "timings": [
+        "08:00",
+        "12:00",
+        "17:20"
+      ],
+      "before_after_food": "before",
+      "pill_image": null,
+      "created_at": "2026-01-31T17:20:08.183827",
+      "updated_at": "2026-01-31T17:20:08.183827",
+      "last_taken_at": "2026-01-31T11:50:16.990593"
+    },
+    {
+      "name": "paracetomol",
+      "dosage": "10",
+      "timings": [
+        "08:00",
+        "17:20",
+        "21:00"
+      ],
+      "before_after_food": "anytime",
+      "pill_image": null,
+      "created_at": "2026-01-31T17:20:08.183827",
+      "updated_at": "2026-01-31T17:20:08.183827",
+      "last_taken_at": "2026-01-31T11:50:22.874292"
+    }
+  ],
+  "inventory": [
+    {
+      "med_name": "Antacid",
+      "quantity": 25,
+      "low_stock_threshold": 10,
+      "last_updated": "2026-01-31T17:20:22.874292",
+      "last_refilled": "2026-01-31T17:20:22.874292",
+      "is_low_stock": false,
+      "status": "well_stocked"
+    },
+    {
+      "med_name": "Dolo",
+      "quantity": 3,
+      "low_stock_threshold": 10,
+      "last_updated": "2026-01-31T17:20:22.874292",
+      "last_refilled": "2026-01-31T17:20:22.874292",
+      "is_low_stock": true,
+      "status": "low_stock"
+    },
+    {
+      "med_name": "paracetomol",
+      "quantity": 19,
+      "low_stock_threshold": 10,
+      "last_updated": "2026-01-31T17:20:22.874292",
+      "last_refilled": "2026-01-31T17:20:22.874292",
+      "is_low_stock": false,
+      "status": "adequate"
+    }
+  ],
+  "vitals": [
+    {
+      "heart_rate": 80,
+      "blood_pressure": "120/80",
+      "temperature": 37.0,
+      "recorded_at": "2026-01-31T05:10:50.005438"
+    },
+    {
+      "heart_rate": 120,
+      "blood_pressure": "150/90",
+      "temperature": 49.8,
+      "feeling": "tired",
+      "recorded_at": "2026-01-31T05:33:22.020160"
+    },
+    {
+      "heart_rate": 90,
+      "blood_pressure": "90/70",
+      "temperature": 40.0,
+      "feeling": "well",
+      "recorded_at": "2026-01-31T07:14:42.786175"
+    },
+    {
+      "heart_rate": 110,
+      "blood_pressure": "130/90",
+      "temperature": 42.0,
+      "feeling": "unwell",
+      "recorded_at": "2026-01-31T07:15:56.464522"
+    },
+    {
+      "heart_rate": 200,
+      "blood_pressure": "80/55",
+      "temperature": 42.0,
+      "feeling": "tired",
+      "recorded_at": "2026-01-31T09:48:43.907788"
+    },
+    {
+      "heart_rate": 200,
+      "blood_pressure": "80/55",
+      "temperature": 45.0,
+      "feeling": "ok",
+      "recorded_at": "2026-01-31T09:51:40.661710"
+    },
+    {
+      "heart_rate": 200,
+      "blood_pressure": "120/80",
+      "temperature": 45.0,
+      "feeling": "well",
+      "recorded_at": "2026-01-31T11:51:21.746739"
+    }
+  ],
+  "observations": [],
+  "reasoning": null,
+  "plan": null,
+  "action_log": [],
+  "alerts": [],
+  "patient_profile": {
+    "name": "Sanjay",
+    "age": "75",
+    "conditions": "diabetes"
+  },
+  "wellbeing_log": [
+    {
+      "feeling": "tired",
+      "recorded_at": "2026-01-31T05:33:22.020160"
+    },
+    {
+      "feeling": "well",
+      "recorded_at": "2026-01-31T07:14:42.786175"
+    },
+    {
+      "feeling": "unwell",
+      "recorded_at": "2026-01-31T07:15:56.464522"
+    },
+    {
+      "feeling": "tired",
+      "recorded_at": "2026-01-31T09:48:43.907788"
+    },
+    {
+      "feeling": "ok",
+      "recorded_at": "2026-01-31T09:51:40.661710"
+    },
+    {
+      "feeling": "well",
+      "recorded_at": "2026-01-31T11:51:21.746739"
+    }
+  ],
+  "trend_alerts": [],
+  "ai_summary": null,
+  "agent_memory": {},
+  "user_sessions": [],
+  "cached_data": {},
+  "user_id": "default",
+  "messages": []
+}
